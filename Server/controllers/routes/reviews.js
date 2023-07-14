@@ -1,6 +1,6 @@
 var express = require('express');
 var router = express.Router();
-var {pool} = require('../../models/db')
+var {pool} = require('../../models/db');
 
 
 /* GET users listing. */
@@ -50,4 +50,41 @@ router.get('/', function(req, res, next) {
     }
   );
 });
+
+router.post('/', (req, res) => {
+  let product_id = req.query.product_id;
+  let rating = req.query.rating;
+  let summary = req.query.summary;
+  let body = req.query.body;
+  let recommended =  req.query.recommended;
+  let name = req.query.name;
+  let email = req.query.email;
+  let photos = req.query.photos;
+  let characteristics = req.query.characteristics
+  let date = new Date();
+
+  pool.query(
+    'INSERT INTO reviews (product_id, rating, summary, body, recommended, reviewer_name, email, date) VALUES ($1, $2, $3, $4, $5, $6, $7, $8) RETURNING review_id',
+    [product_id, rating, summary, body, recommended, name, email, date],
+    (err, result) => {
+      if (err) {
+        console.log('ERROR IN QUERY REVIEWS POST:');
+        res.status(500).json({ error: 'Error inserting review into the database' });
+      } else {
+        const review_id = result.rows[0].review_id;
+        pool.query('INSERT INTO photos (url_link, review_id) VALUES ($1, $2)', [url_link, review_id], (err, result) => {
+          if (err) {
+            console.log('ERROR IN QUERY PHOTOS POST:', err);
+            res.status(500).json({ error: 'Error inserting photo into the database' });
+          } else {
+            res.status(201).send('Successfully posted review and photo');
+          }
+        });
+      }
+    }
+  );
+  })
+
+
+
 module.exports = router;
