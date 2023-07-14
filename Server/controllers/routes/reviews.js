@@ -78,10 +78,10 @@ router.post('/', (req, res) => {
             res.status(500).json({ error: 'Error inserting photo into the database' });
           } else {
             res.status(201).send('Successfully posted review and photo');
-          }
-        });
       }
     }
+  )}
+  }
   );
   })
 
