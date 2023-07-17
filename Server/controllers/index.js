@@ -6,6 +6,7 @@ var cookieParser = require('cookie-parser');
 var bodyParser = require('body-parser');
 
 app.use(express.static(path.join(__dirname, 'public')));
+app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: false }));
 app.use(cookieParser());
 
@@ -16,10 +17,14 @@ const reportReviewsRoute = require('./routes/report_reviews');
 
 app.use('/reviews', reviewsRoute);
 app.use('/reviews/meta', reviewsMetaRoute);
-app.use('/reviews/:review_id/helpful', reviewsHelpfulRoute);
+app.use('/reviews', reviewsHelpfulRoute);
 app.use('/reviews/:review_id/report', reportReviewsRoute);
 
+if (process.env.NODE_ENV !== 'test') {
+  app.listen(PORT, () => {
+    console.log('Server running')
+  })
+}
 
-app.listen(PORT, () => {
-  console.log('Server running')
-})
+
+module.exports = app;

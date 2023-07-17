@@ -36,10 +36,11 @@ router.get('/', function(req, res, next) {
     [product_id, count],
     (err, result) => {
       if (err) {
-        console.error('Error executing query:', err);
+        console.log('Error executing query:', err);
         res.status(500).json({ error: 'An error occurred' });
       } else {
         const rows = result.rows;
+        res.status(200)
         res.send({
           product: product_id,
           page: page,
@@ -52,36 +53,52 @@ router.get('/', function(req, res, next) {
 });
 
 router.post('/', (req, res) => {
-  let product_id = req.query.product_id;
-  let rating = req.query.rating;
-  let summary = req.query.summary;
-  let body = req.query.body;
-  let recommended =  req.query.recommended;
-  let name = req.query.name;
-  let email = req.query.email;
-  let photos = req.query.photos;
-  let characteristics = req.query.characteristics
-  let date = new Date();
+  console.log('REQ BODY', req.body)
+  let product_id = req.body.product_id;
+  console.log('PRODUCT ID', product_id)
+  let rating = req.body.rating;
+  console.log('rating', rating)
+  let summary = req.body.summary;
+  console.log('summary', summary)
+  let body = req.body.body;
+  console.log('body', body)
+  let recommended =  req.body.recommended;
+  console.log('recommended', recommended)
+  let name = req.body.name;
+  console.log('name', name)
+  let email = req.body.email;
+  console.log('email', email)
+  let photos = req.body.photos;
+  console.log('photos', photos)
+  let characteristics = req.body.characteristics
+  let date = Date.now().toString();
+  console.log('date', date)
 
   pool.query(
-    'INSERT INTO reviews (product_id, rating, summary, body, recommended, reviewer_name, email, date) VALUES ($1, $2, $3, $4, $5, $6, $7, $8) RETURNING review_id',
-    [product_id, rating, summary, body, recommended, name, email, date],
+    'INSERT INTO reviews (product_id, rating, summary, body, reviewer_name, date, reviewer_email) VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING review_id',
+    [product_id, rating, summary, body, name, date, email],
     (err, result) => {
       if (err) {
         console.log('ERROR IN QUERY REVIEWS POST:');
         res.status(500).json({ error: 'Error inserting review into the database' });
       } else {
+        if(photos !== undefined) {
         const review_id = result.rows[0].review_id;
-        pool.query('INSERT INTO photos (url_link, review_id) VALUES ($1, $2)', [url_link, review_id], (err, result) => {
-          if (err) {
-            console.log('ERROR IN QUERY PHOTOS POST:', err);
-            res.status(500).json({ error: 'Error inserting photo into the database' });
-          } else {
-            res.status(201).send('Successfully posted review and photo');
+        photos.map((photo) => {
+          const url_link = photo.url_link;
+          console.log(url_link)
+          pool.query('INSERT INTO photos (url_link, review_id) VALUES ($1, $2)', [url_link, review_id], (err, result) => {
+            if (err) {
+              console.log('ERROR IN QUERY PHOTOS POST:', err);
+              res.status(500).json({ error: 'Error inserting photo into the database' });
+            } else {
+              res.status(201).send('Successfully posted review and photo');
+            }
+          });
+        });
+      }
       }
     }
-  )}
-  }
   );
   })
 
