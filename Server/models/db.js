@@ -1,11 +1,11 @@
-var pg = require('pg');
+var pg = require("pg");
 var Pool = pg.Pool;
 
 var dbConfig = {
-  user: 'postgres',
-  host: 'localhost',
-  database: 'reviews',
-  password: '',
+  user: "postgres",
+  host: "localhost",
+  database: "reviews",
+  password: "",
   port: 5432,
 };
 
