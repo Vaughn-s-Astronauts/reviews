@@ -1,0 +1,1031 @@
+{
+  "aggregate": {
+    "counters": {
+      "vusers.created_by_name.All Atelier Get Routes": 9750,
+      "vusers.created": 9750,
+      "http.requests": 9772,
+      "http.codes.200": 22,
+      "http.responses": 22,
+      "http.downloaded_bytes": 64218,
+      "errors.ETIMEDOUT": 9750,
+      "vusers.failed": 9750
+    },
+    "rates": {
+      "http.request_rate": 12
+    },
+    "firstCounterAt": 1689855800436,
+    "firstHistogramAt": 1689855808757,
+    "lastCounterAt": 1689856240258,
+    "lastHistogramAt": 1689855824406,
+    "firstMetricAt": 1689855800436,
+    "lastMetricAt": 1689856240258,
+    "period": 1689856240000,
+    "summaries": {
+      "http.response_time": {
+        "min": 8255,
+        "max": 19939,
+        "count": 22,
+        "p50": 15526,
+        "median": 15526,
+        "p75": 15839.7,
+        "p90": 16159.7,
+        "p95": 16486.1,
+        "p99": 19737.6,
+        "p999": 19737.6
+      }
+    },
+    "histograms": {
+      "http.response_time": {
+        "min": 8255,
+        "max": 19939,
+        "count": 22,
+        "p50": 15526,
+        "median": 15526,
+        "p75": 15839.7,
+        "p90": 16159.7,
+        "p95": 16486.1,
+        "p99": 19737.6,
+        "p999": 19737.6
+      }
+    }
+  },
+  "intermediate": [
+    {
+      "counters": {
+        "vusers.created_by_name.All Atelier Get Routes": 54,
+        "vusers.created": 54,
+        "http.requests": 59,
+        "http.codes.200": 5,
+        "http.responses": 5,
+        "http.downloaded_bytes": 14595
+      },
+      "rates": {
+        "http.request_rate": 6
+      },
+      "http.request_rate": null,
+      "firstCounterAt": 1689855800436,
+      "firstHistogramAt": 1689855808757,
+      "lastCounterAt": 1689855809698,
+      "lastHistogramAt": 1689855809589,
+      "firstMetricAt": 1689855800436,
+      "lastMetricAt": 1689855809698,
+      "period": "1689855800000",
+      "summaries": {
+        "http.response_time": {
+          "min": 8255,
+          "max": 8934,
+          "count": 5,
+          "p50": 8352,
+          "median": 8352,
+          "p75": 8692.8,
+          "p90": 8692.8,
+          "p95": 8692.8,
+          "p99": 8692.8,
+          "p999": 8692.8
+        }
+      },
+      "histograms": {
+        "http.response_time": {
+          "min": 8255,
+          "max": 8934,
+          "count": 5,
+          "p50": 8352,
+          "median": 8352,
+          "p75": 8692.8,
+          "p90": 8692.8,
+          "p95": 8692.8,
+          "p99": 8692.8,
+          "p999": 8692.8
+        }
+      }
+    },
+    {
+      "counters": {
+        "http.codes.200": 15,
+        "http.responses": 15,
+        "http.downloaded_bytes": 43785,
+        "http.requests": 77,
+        "vusers.created_by_name.All Atelier Get Routes": 62,
+        "vusers.created": 62
+      },
+      "rates": {
+        "http.request_rate": 8
+      },
+      "http.request_rate": null,
+      "firstCounterAt": 1689855810344,
+      "firstHistogramAt": 1689855810344,
+      "lastCounterAt": 1689855819761,
+      "lastHistogramAt": 1689855819587,
+      "firstMetricAt": 1689855810344,
+      "lastMetricAt": 1689855819761,
+      "period": "1689855810000",
+      "summaries": {
+        "http.response_time": {
+          "min": 8777,
+          "max": 16549,
+          "count": 15,
+          "p50": 15839.7,
+          "median": 15839.7,
+          "p75": 15839.7,
+          "p90": 16159.7,
+          "p95": 16159.7,
+          "p99": 16159.7,
+          "p999": 16159.7
+        }
+      },
+      "histograms": {
+        "http.response_time": {
+          "min": 8777,
+          "max": 16549,
+          "count": 15,
+          "p50": 15839.7,
+          "median": 15839.7,
+          "p75": 15839.7,
+          "p90": 16159.7,
+          "p95": 16159.7,
+          "p99": 16159.7,
+          "p999": 16159.7
+        }
+      }
+    },
+    {
+      "counters": {
+        "vusers.created_by_name.All Atelier Get Routes": 70,
+        "vusers.created": 70,
+        "http.requests": 72,
+        "http.codes.200": 2,
+        "http.responses": 2,
+        "http.downloaded_bytes": 5838,
+        "errors.ETIMEDOUT": 37,
+        "vusers.failed": 37
+      },
+      "rates": {
+        "http.request_rate": 7
+      },
+      "http.request_rate": null,
+      "firstCounterAt": 1689855820472,
+      "firstHistogramAt": 1689855824404,
+      "lastCounterAt": 1689855829774,
+      "lastHistogramAt": 1689855824406,
+      "firstMetricAt": 1689855820472,
+      "lastMetricAt": 1689855829774,
+      "period": "1689855820000",
+      "summaries": {
+        "http.response_time": {
+          "min": 19894,
+          "max": 19939,
+          "count": 2,
+          "p50": 19737.6,
+          "median": 19737.6,
+          "p75": 19737.6,
+          "p90": 19737.6,
+          "p95": 19737.6,
+          "p99": 19737.6,
+          "p999": 19737.6
+        }
+      },
+      "histograms": {
+        "http.response_time": {
+          "min": 19894,
+          "max": 19939,
+          "count": 2,
+          "p50": 19737.6,
+          "median": 19737.6,
+          "p75": 19737.6,
+          "p90": 19737.6,
+          "p95": 19737.6,
+          "p99": 19737.6,
+          "p999": 19737.6
+        }
+      }
+    },
+    {
+      "counters": {
+        "errors.ETIMEDOUT": 77,
+        "vusers.failed": 77,
+        "vusers.created_by_name.All Atelier Get Routes": 80,
+        "vusers.created": 80,
+        "http.requests": 80
+      },
+      "rates": {
+        "http.request_rate": 8
+      },
+      "http.request_rate": null,
+      "firstCounterAt": 1689855830366,
+      "lastCounterAt": 1689855839822,
+      "firstMetricAt": 1689855830366,
+      "lastMetricAt": 1689855839822,
+      "period": "1689855830000",
+      "summaries": {},
+      "histograms": {}
+    },
+    {
+      "counters": {
+        "errors.ETIMEDOUT": 72,
+        "vusers.failed": 72,
+        "vusers.created_by_name.All Atelier Get Routes": 88,
+        "vusers.created": 88,
+        "http.requests": 88
+      },
+      "rates": {
+        "http.request_rate": 9
+      },
+      "http.request_rate": null,
+      "firstCounterAt": 1689855840488,
+      "lastCounterAt": 1689855849879,
+      "firstMetricAt": 1689855840488,
+      "lastMetricAt": 1689855849879,
+      "period": "1689855840000",
+      "summaries": {},
+      "histograms": {}
+    },
+    {
+      "counters": {
+        "errors.ETIMEDOUT": 80,
+        "vusers.failed": 80,
+        "vusers.created_by_name.All Atelier Get Routes": 96,
+        "vusers.created": 96,
+        "http.requests": 96
+      },
+      "rates": {
+        "http.request_rate": 10
+      },
+      "http.request_rate": null,
+      "firstCounterAt": 1689855850484,
+      "lastCounterAt": 1689855859882,
+      "firstMetricAt": 1689855850484,
+      "lastMetricAt": 1689855859882,
+      "period": "1689855850000",
+      "summaries": {},
+      "histograms": {}
+    },
+    {
+      "counters": {
+        "vusers.created_by_name.All Atelier Get Routes": 130,
+        "vusers.created": 130,
+        "http.requests": 130,
+        "errors.ETIMEDOUT": 88,
+        "vusers.failed": 88
+      },
+      "rates": {
+        "http.request_rate": 14
+      },
+      "http.request_rate": null,
+      "firstCounterAt": 1689855860000,
+      "lastCounterAt": 1689855869895,
+      "firstMetricAt": 1689855860000,
+      "lastMetricAt": 1689855869895,
+      "period": "1689855860000",
+      "summaries": {},
+      "histograms": {}
+    },
+    {
+      "counters": {
+        "vusers.created_by_name.All Atelier Get Routes": 202,
+        "vusers.created": 202,
+        "http.requests": 202,
+        "errors.ETIMEDOUT": 96,
+        "vusers.failed": 96
+      },
+      "rates": {
+        "http.request_rate": 21
+      },
+      "http.request_rate": null,
+      "firstCounterAt": 1689855870004,
+      "lastCounterAt": 1689855879970,
+      "firstMetricAt": 1689855870004,
+      "lastMetricAt": 1689855879970,
+      "period": "1689855870000",
+      "summaries": {},
+      "histograms": {}
+    },
+    {
+      "counters": {
+        "errors.ETIMEDOUT": 130,
+        "vusers.failed": 130,
+        "vusers.created_by_name.All Atelier Get Routes": 267,
+        "vusers.created": 267,
+        "http.requests": 267
+      },
+      "rates": {
+        "http.request_rate": 28
+      },
+      "http.request_rate": null,
+      "firstCounterAt": 1689855880003,
+      "lastCounterAt": 1689855889983,
+      "firstMetricAt": 1689855880003,
+      "lastMetricAt": 1689855889983,
+      "period": "1689855880000",
+      "summaries": {},
+      "histograms": {}
+    },
+    {
+      "counters": {
+        "errors.ETIMEDOUT": 202,
+        "vusers.failed": 202,
+        "vusers.created_by_name.All Atelier Get Routes": 336,
+        "vusers.created": 336,
+        "http.requests": 336
+      },
+      "rates": {
+        "http.request_rate": 34
+      },
+      "http.request_rate": null,
+      "firstCounterAt": 1689855890007,
+      "lastCounterAt": 1689855899987,
+      "firstMetricAt": 1689855890007,
+      "lastMetricAt": 1689855899987,
+      "period": "1689855890000",
+      "summaries": {},
+      "histograms": {}
+    },
+    {
+      "counters": {
+        "vusers.created_by_name.All Atelier Get Routes": 405,
+        "vusers.created": 405,
+        "http.requests": 405,
+        "errors.ETIMEDOUT": 267,
+        "vusers.failed": 267
+      },
+      "rates": {
+        "http.request_rate": 41
+      },
+      "http.request_rate": null,
+      "firstCounterAt": 1689855900015,
+      "lastCounterAt": 1689855909997,
+      "firstMetricAt": 1689855900015,
+      "lastMetricAt": 1689855909997,
+      "period": "1689855900000",
+      "summaries": {},
+      "histograms": {}
+    },
+    {
+      "counters": {
+        "errors.ETIMEDOUT": 336,
+        "vusers.failed": 336,
+        "vusers.created_by_name.All Atelier Get Routes": 460,
+        "vusers.created": 460,
+        "http.requests": 460
+      },
+      "rates": {
+        "http.request_rate": 48
+      },
+      "http.request_rate": null,
+      "firstCounterAt": 1689855910017,
+      "lastCounterAt": 1689855919988,
+      "firstMetricAt": 1689855910017,
+      "lastMetricAt": 1689855919988,
+      "period": "1689855910000",
+      "summaries": {},
+      "histograms": {}
+    },
+    {
+      "counters": {
+        "errors.ETIMEDOUT": 403,
+        "vusers.failed": 403,
+        "vusers.created_by_name.All Atelier Get Routes": 8,
+        "vusers.created": 8,
+        "http.requests": 8
+      },
+      "rates": {
+        "http.request_rate": 2
+      },
+      "http.request_rate": null,
+      "firstCounterAt": 1689855920048,
+      "lastCounterAt": 1689855929976,
+      "firstMetricAt": 1689855920048,
+      "lastMetricAt": 1689855929976,
+      "period": "1689855920000",
+      "summaries": {},
+      "histograms": {}
+    },
+    {
+      "counters": {
+        "errors.ETIMEDOUT": 462,
+        "vusers.failed": 462,
+        "vusers.created_by_name.All Atelier Get Routes": 25,
+        "vusers.created": 25,
+        "http.requests": 25
+      },
+      "rates": {
+        "http.request_rate": 3
+      },
+      "http.request_rate": null,
+      "firstCounterAt": 1689855930006,
+      "lastCounterAt": 1689855939909,
+      "firstMetricAt": 1689855930006,
+      "lastMetricAt": 1689855939909,
+      "period": "1689855930000",
+      "summaries": {},
+      "histograms": {}
+    },
+    {
+      "counters": {
+        "vusers.created_by_name.All Atelier Get Routes": 42,
+        "vusers.created": 42,
+        "http.requests": 42,
+        "errors.ETIMEDOUT": 8,
+        "vusers.failed": 8
+      },
+      "rates": {
+        "http.request_rate": 6
+      },
+      "http.request_rate": null,
+      "firstCounterAt": 1689855940559,
+      "lastCounterAt": 1689855949779,
+      "firstMetricAt": 1689855940559,
+      "lastMetricAt": 1689855949779,
+      "period": "1689855940000",
+      "summaries": {},
+      "histograms": {}
+    },
+    {
+      "counters": {
+        "errors.ETIMEDOUT": 25,
+        "vusers.failed": 25,
+        "vusers.created_by_name.All Atelier Get Routes": 58,
+        "vusers.created": 58,
+        "http.requests": 58
+      },
+      "rates": {
+        "http.request_rate": 7
+      },
+      "http.request_rate": null,
+      "firstCounterAt": 1689855950564,
+      "lastCounterAt": 1689855959845,
+      "firstMetricAt": 1689855950564,
+      "lastMetricAt": 1689855959845,
+      "period": "1689855950000",
+      "summaries": {},
+      "histograms": {}
+    },
+    {
+      "counters": {
+        "errors.ETIMEDOUT": 42,
+        "vusers.failed": 42,
+        "vusers.created_by_name.All Atelier Get Routes": 75,
+        "vusers.created": 75,
+        "http.requests": 75
+      },
+      "rates": {
+        "http.request_rate": 8
+      },
+      "http.request_rate": null,
+      "firstCounterAt": 1689855960573,
+      "lastCounterAt": 1689855969943,
+      "firstMetricAt": 1689855960573,
+      "lastMetricAt": 1689855969943,
+      "period": "1689855960000",
+      "summaries": {},
+      "histograms": {}
+    },
+    {
+      "counters": {
+        "errors.ETIMEDOUT": 58,
+        "vusers.failed": 58,
+        "vusers.created_by_name.All Atelier Get Routes": 92,
+        "vusers.created": 92,
+        "http.requests": 92
+      },
+      "rates": {
+        "http.request_rate": 9
+      },
+      "http.request_rate": null,
+      "firstCounterAt": 1689855970582,
+      "lastCounterAt": 1689855979991,
+      "firstMetricAt": 1689855970582,
+      "lastMetricAt": 1689855979991,
+      "period": "1689855970000",
+      "summaries": {},
+      "histograms": {}
+    },
+    {
+      "counters": {
+        "vusers.created_by_name.All Atelier Get Routes": 107,
+        "vusers.created": 107,
+        "http.requests": 106,
+        "errors.ETIMEDOUT": 75,
+        "vusers.failed": 75
+      },
+      "rates": {
+        "http.request_rate": 11
+      },
+      "http.request_rate": null,
+      "firstCounterAt": 1689855980098,
+      "lastCounterAt": 1689855989999,
+      "firstMetricAt": 1689855980098,
+      "lastMetricAt": 1689855989999,
+      "period": "1689855980000",
+      "summaries": {},
+      "histograms": {}
+    },
+    {
+      "counters": {
+        "vusers.created_by_name.All Atelier Get Routes": 124,
+        "vusers.created": 124,
+        "http.requests": 125,
+        "errors.ETIMEDOUT": 92,
+        "vusers.failed": 92
+      },
+      "rates": {
+        "http.request_rate": 13
+      },
+      "http.request_rate": null,
+      "firstCounterAt": 1689855990001,
+      "lastCounterAt": 1689855999997,
+      "firstMetricAt": 1689855990001,
+      "lastMetricAt": 1689855999997,
+      "period": "1689855990000",
+      "summaries": {},
+      "histograms": {}
+    },
+    {
+      "counters": {
+        "errors.ETIMEDOUT": 106,
+        "vusers.failed": 106,
+        "vusers.created_by_name.All Atelier Get Routes": 142,
+        "vusers.created": 142,
+        "http.requests": 142
+      },
+      "rates": {
+        "http.request_rate": 14
+      },
+      "http.request_rate": null,
+      "firstCounterAt": 1689856000035,
+      "lastCounterAt": 1689856009877,
+      "firstMetricAt": 1689856000035,
+      "lastMetricAt": 1689856009877,
+      "period": "1689856000000",
+      "summaries": {},
+      "histograms": {}
+    },
+    {
+      "counters": {
+        "errors.ETIMEDOUT": 125,
+        "vusers.failed": 125,
+        "vusers.created_by_name.All Atelier Get Routes": 158,
+        "vusers.created": 158,
+        "http.requests": 158
+      },
+      "rates": {
+        "http.request_rate": 16
+      },
+      "http.request_rate": null,
+      "firstCounterAt": 1689856010005,
+      "lastCounterAt": 1689856019878,
+      "firstMetricAt": 1689856010005,
+      "lastMetricAt": 1689856019878,
+      "period": "1689856010000",
+      "summaries": {},
+      "histograms": {}
+    },
+    {
+      "counters": {
+        "errors.ETIMEDOUT": 142,
+        "vusers.failed": 142,
+        "vusers.created_by_name.All Atelier Get Routes": 175,
+        "vusers.created": 175,
+        "http.requests": 175
+      },
+      "rates": {
+        "http.request_rate": 18
+      },
+      "http.request_rate": null,
+      "firstCounterAt": 1689856020040,
+      "lastCounterAt": 1689856029887,
+      "firstMetricAt": 1689856020040,
+      "lastMetricAt": 1689856029887,
+      "period": "1689856020000",
+      "summaries": {},
+      "histograms": {}
+    },
+    {
+      "counters": {
+        "errors.ETIMEDOUT": 158,
+        "vusers.failed": 158,
+        "vusers.created_by_name.All Atelier Get Routes": 193,
+        "vusers.created": 193,
+        "http.requests": 193
+      },
+      "rates": {
+        "http.request_rate": 19
+      },
+      "http.request_rate": null,
+      "firstCounterAt": 1689856030046,
+      "lastCounterAt": 1689856039997,
+      "firstMetricAt": 1689856030046,
+      "lastMetricAt": 1689856039997,
+      "period": "1689856030000",
+      "summaries": {},
+      "histograms": {}
+    },
+    {
+      "counters": {
+        "errors.ETIMEDOUT": 175,
+        "vusers.failed": 175,
+        "vusers.created_by_name.All Atelier Get Routes": 207,
+        "vusers.created": 207,
+        "http.requests": 207
+      },
+      "rates": {
+        "http.request_rate": 21
+      },
+      "http.request_rate": null,
+      "firstCounterAt": 1689856040045,
+      "lastCounterAt": 1689856049889,
+      "firstMetricAt": 1689856040045,
+      "lastMetricAt": 1689856049889,
+      "period": "1689856040000",
+      "summaries": {},
+      "histograms": {}
+    },
+    {
+      "counters": {
+        "vusers.created_by_name.All Atelier Get Routes": 225,
+        "vusers.created": 225,
+        "http.requests": 225,
+        "errors.ETIMEDOUT": 192,
+        "vusers.failed": 192
+      },
+      "rates": {
+        "http.request_rate": 23
+      },
+      "http.request_rate": null,
+      "firstCounterAt": 1689856050003,
+      "lastCounterAt": 1689856059897,
+      "firstMetricAt": 1689856050003,
+      "lastMetricAt": 1689856059897,
+      "period": "1689856050000",
+      "summaries": {},
+      "histograms": {}
+    },
+    {
+      "counters": {
+        "errors.ETIMEDOUT": 208,
+        "vusers.failed": 208,
+        "vusers.created_by_name.All Atelier Get Routes": 242,
+        "vusers.created": 242,
+        "http.requests": 242
+      },
+      "rates": {
+        "http.request_rate": 24
+      },
+      "http.request_rate": null,
+      "firstCounterAt": 1689856060000,
+      "lastCounterAt": 1689856069900,
+      "firstMetricAt": 1689856060000,
+      "lastMetricAt": 1689856069900,
+      "period": "1689856060000",
+      "summaries": {},
+      "histograms": {}
+    },
+    {
+      "counters": {
+        "errors.ETIMEDOUT": 225,
+        "vusers.failed": 225,
+        "vusers.created_by_name.All Atelier Get Routes": 258,
+        "vusers.created": 258,
+        "http.requests": 258
+      },
+      "rates": {
+        "http.request_rate": 26
+      },
+      "http.request_rate": null,
+      "firstCounterAt": 1689856070008,
+      "lastCounterAt": 1689856079901,
+      "firstMetricAt": 1689856070008,
+      "lastMetricAt": 1689856079901,
+      "period": "1689856070000",
+      "summaries": {},
+      "histograms": {}
+    },
+    {
+      "counters": {
+        "errors.ETIMEDOUT": 242,
+        "vusers.failed": 242,
+        "vusers.created_by_name.All Atelier Get Routes": 275,
+        "vusers.created": 275,
+        "http.requests": 275
+      },
+      "rates": {
+        "http.request_rate": 28
+      },
+      "http.request_rate": null,
+      "firstCounterAt": 1689856080044,
+      "lastCounterAt": 1689856089947,
+      "firstMetricAt": 1689856080044,
+      "lastMetricAt": 1689856089947,
+      "period": "1689856080000",
+      "summaries": {},
+      "histograms": {}
+    },
+    {
+      "counters": {
+        "vusers.created_by_name.All Atelier Get Routes": 292,
+        "vusers.created": 292,
+        "http.requests": 292,
+        "errors.ETIMEDOUT": 258,
+        "vusers.failed": 258
+      },
+      "rates": {
+        "http.request_rate": 29
+      },
+      "http.request_rate": null,
+      "firstCounterAt": 1689856090007,
+      "lastCounterAt": 1689856099940,
+      "firstMetricAt": 1689856090007,
+      "lastMetricAt": 1689856099940,
+      "period": "1689856090000",
+      "summaries": {},
+      "histograms": {}
+    },
+    {
+      "counters": {
+        "vusers.created_by_name.All Atelier Get Routes": 308,
+        "vusers.created": 308,
+        "http.requests": 308,
+        "errors.ETIMEDOUT": 275,
+        "vusers.failed": 275
+      },
+      "rates": {
+        "http.request_rate": 31
+      },
+      "http.request_rate": null,
+      "firstCounterAt": 1689856100015,
+      "lastCounterAt": 1689856109949,
+      "firstMetricAt": 1689856100015,
+      "lastMetricAt": 1689856109949,
+      "period": "1689856100000",
+      "summaries": {},
+      "histograms": {}
+    },
+    {
+      "counters": {
+        "errors.ETIMEDOUT": 292,
+        "vusers.failed": 292,
+        "vusers.created_by_name.All Atelier Get Routes": 325,
+        "vusers.created": 325,
+        "http.requests": 325
+      },
+      "rates": {
+        "http.request_rate": 33
+      },
+      "http.request_rate": null,
+      "firstCounterAt": 1689856110010,
+      "lastCounterAt": 1689856119968,
+      "firstMetricAt": 1689856110010,
+      "lastMetricAt": 1689856119968,
+      "period": "1689856110000",
+      "summaries": {},
+      "histograms": {}
+    },
+    {
+      "counters": {
+        "errors.ETIMEDOUT": 308,
+        "vusers.failed": 308,
+        "vusers.created_by_name.All Atelier Get Routes": 342,
+        "vusers.created": 342,
+        "http.requests": 342
+      },
+      "rates": {
+        "http.request_rate": 34
+      },
+      "http.request_rate": null,
+      "firstCounterAt": 1689856120020,
+      "lastCounterAt": 1689856129970,
+      "firstMetricAt": 1689856120020,
+      "lastMetricAt": 1689856129970,
+      "period": "1689856120000",
+      "summaries": {},
+      "histograms": {}
+    },
+    {
+      "counters": {
+        "errors.ETIMEDOUT": 325,
+        "vusers.failed": 325,
+        "vusers.created_by_name.All Atelier Get Routes": 359,
+        "vusers.created": 359,
+        "http.requests": 359
+      },
+      "rates": {
+        "http.request_rate": 36
+      },
+      "http.request_rate": null,
+      "firstCounterAt": 1689856130032,
+      "lastCounterAt": 1689856139993,
+      "firstMetricAt": 1689856130032,
+      "lastMetricAt": 1689856139993,
+      "period": "1689856130000",
+      "summaries": {},
+      "histograms": {}
+    },
+    {
+      "counters": {
+        "errors.ETIMEDOUT": 342,
+        "vusers.failed": 342,
+        "vusers.created_by_name.All Atelier Get Routes": 374,
+        "vusers.created": 374,
+        "http.requests": 374
+      },
+      "rates": {
+        "http.request_rate": 38
+      },
+      "http.request_rate": null,
+      "firstCounterAt": 1689856140032,
+      "lastCounterAt": 1689856149979,
+      "firstMetricAt": 1689856140032,
+      "lastMetricAt": 1689856149979,
+      "period": "1689856140000",
+      "summaries": {},
+      "histograms": {}
+    },
+    {
+      "counters": {
+        "vusers.created_by_name.All Atelier Get Routes": 392,
+        "vusers.created": 392,
+        "http.requests": 392,
+        "errors.ETIMEDOUT": 359,
+        "vusers.failed": 359
+      },
+      "rates": {
+        "http.request_rate": 39
+      },
+      "http.request_rate": null,
+      "firstCounterAt": 1689856150007,
+      "lastCounterAt": 1689856159994,
+      "firstMetricAt": 1689856150007,
+      "lastMetricAt": 1689856159994,
+      "period": "1689856150000",
+      "summaries": {},
+      "histograms": {}
+    },
+    {
+      "counters": {
+        "vusers.created_by_name.All Atelier Get Routes": 408,
+        "vusers.created": 408,
+        "http.requests": 408,
+        "errors.ETIMEDOUT": 374,
+        "vusers.failed": 374
+      },
+      "rates": {
+        "http.request_rate": 41
+      },
+      "http.request_rate": null,
+      "firstCounterAt": 1689856160008,
+      "lastCounterAt": 1689856169993,
+      "firstMetricAt": 1689856160008,
+      "lastMetricAt": 1689856169993,
+      "period": "1689856160000",
+      "summaries": {},
+      "histograms": {}
+    },
+    {
+      "counters": {
+        "errors.ETIMEDOUT": 392,
+        "vusers.failed": 392,
+        "vusers.created_by_name.All Atelier Get Routes": 425,
+        "vusers.created": 425,
+        "http.requests": 425
+      },
+      "rates": {
+        "http.request_rate": 43
+      },
+      "http.request_rate": null,
+      "firstCounterAt": 1689856170010,
+      "lastCounterAt": 1689856179999,
+      "firstMetricAt": 1689856170010,
+      "lastMetricAt": 1689856179999,
+      "period": "1689856170000",
+      "summaries": {},
+      "histograms": {}
+    },
+    {
+      "counters": {
+        "errors.ETIMEDOUT": 408,
+        "vusers.failed": 408,
+        "vusers.created_by_name.All Atelier Get Routes": 438,
+        "vusers.created": 438,
+        "http.requests": 438
+      },
+      "rates": {
+        "http.request_rate": 44
+      },
+      "http.request_rate": null,
+      "firstCounterAt": 1689856180013,
+      "lastCounterAt": 1689856189995,
+      "firstMetricAt": 1689856180013,
+      "lastMetricAt": 1689856189995,
+      "period": "1689856180000",
+      "summaries": {},
+      "histograms": {}
+    },
+    {
+      "counters": {
+        "errors.ETIMEDOUT": 423,
+        "vusers.failed": 423,
+        "vusers.created_by_name.All Atelier Get Routes": 459,
+        "vusers.created": 459,
+        "http.requests": 459
+      },
+      "rates": {
+        "http.request_rate": 46
+      },
+      "http.request_rate": null,
+      "firstCounterAt": 1689856190002,
+      "lastCounterAt": 1689856199996,
+      "firstMetricAt": 1689856190002,
+      "lastMetricAt": 1689856199996,
+      "period": "1689856190000",
+      "summaries": {},
+      "histograms": {}
+    },
+    {
+      "counters": {
+        "errors.ETIMEDOUT": 440,
+        "vusers.failed": 440,
+        "vusers.created_by_name.All Atelier Get Routes": 474,
+        "vusers.created": 474,
+        "http.requests": 474
+      },
+      "rates": {
+        "http.request_rate": 48
+      },
+      "http.request_rate": null,
+      "firstCounterAt": 1689856200006,
+      "lastCounterAt": 1689856209978,
+      "firstMetricAt": 1689856200006,
+      "lastMetricAt": 1689856209978,
+      "period": "1689856200000",
+      "summaries": {},
+      "histograms": {}
+    },
+    {
+      "counters": {
+        "vusers.created_by_name.All Atelier Get Routes": 492,
+        "vusers.created": 492,
+        "http.requests": 492,
+        "errors.ETIMEDOUT": 458,
+        "vusers.failed": 458
+      },
+      "rates": {
+        "http.request_rate": 49
+      },
+      "http.request_rate": null,
+      "firstCounterAt": 1689856210004,
+      "lastCounterAt": 1689856219967,
+      "firstMetricAt": 1689856210004,
+      "lastMetricAt": 1689856219967,
+      "period": "1689856210000",
+      "summaries": {},
+      "histograms": {}
+    },
+    {
+      "counters": {
+        "errors.ETIMEDOUT": 475,
+        "vusers.failed": 475,
+        "vusers.created_by_name.All Atelier Get Routes": 6,
+        "vusers.created": 6,
+        "http.requests": 6
+      },
+      "rates": {
+        "http.request_rate": 6
+      },
+      "firstCounterAt": 1689856220003,
+      "lastCounterAt": 1689856229979,
+      "firstMetricAt": 1689856220003,
+      "lastMetricAt": 1689856229979,
+      "period": "1689856220000",
+      "http.request_rate": null,
+      "summaries": {},
+      "histograms": {}
+    },
+    {
+      "counters": {
+        "errors.ETIMEDOUT": 492,
+        "vusers.failed": 492
+      },
+      "rates": {},
+      "firstCounterAt": 1689856230017,
+      "lastCounterAt": 1689856239969,
+      "firstMetricAt": 1689856230017,
+      "lastMetricAt": 1689856239969,
+      "period": "1689856230000",
+      "summaries": {},
+      "histograms": {}
+    },
+    {
+      "counters": {
+        "errors.ETIMEDOUT": 6,
+        "vusers.failed": 6
+      },
+      "rates": {},
+      "firstCounterAt": 1689856240028,
+      "lastCounterAt": 1689856240258,
+      "firstMetricAt": 1689856240028,
+      "lastMetricAt": 1689856240258,
+      "period": "1689856240000",
+      "summaries": {},
+      "histograms": {}
+    }
+  ]
+}

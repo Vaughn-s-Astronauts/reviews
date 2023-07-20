@@ -3,9 +3,9 @@ var Pool = pg.Pool;
 
 var dbConfig = {
   user: "postgres",
-  host: "localhost",
+  host: "ec2-52-53-213-40.us-west-1.compute.amazonaws.com",
   database: "reviews",
-  password: "",
+  password: "123",
   port: 5432,
 };
 
