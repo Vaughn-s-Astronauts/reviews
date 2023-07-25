@@ -8,8 +8,8 @@ const { Sequelize } = require("sequelize");
 //   port: 5432,
 // };
 
-const db = new Sequelize("reviews", "postgres", "123", {
-  host: "localhost",
+const db = new Sequelize("reviews", "postgres", "12345678", {
+  host: "ec2-50-18-12-167.us-west-1.compute.amazonaws.com",
   dialect: "postgres",
   port: 5432,
 });
